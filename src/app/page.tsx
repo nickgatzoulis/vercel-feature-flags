@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { dedupe, flag } from "@vercel/flags/next";
 
 const buttonFeatureFlag = flag<boolean>({
